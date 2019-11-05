@@ -11,10 +11,10 @@ public class Application {
 
         //Inserir
 
-       // Setor setor = new Setor();
-       // setor.setNome("Financeiro");
+        Setor setor = new Setor();
+        setor.setNome("Financeiro");
 
-       // setorDAO.adicionarSetor(setor);
+        setorDAO.adicionarSetor(setor);
 
 
         //Consultar
@@ -26,18 +26,18 @@ public class Application {
 
         //Buscar
 
-        //Setor setor1 = setorDAO.buscarSetorPeloId(1L);
-        //System.out.println(setor1.getNome());
+        Setor setor1 = setorDAO.buscarSetorPeloId(1L);
+        System.out.println(setor1.getNome());
 
         //Alterar
 
-       //setor1.setNome("Jurídico");
-       //setorDAO.alterarSetor(setor1);
+        setor1.setNome("Juridico");
+        setorDAO.alterarSetor(setor1);
 
 
         //Deletar
 
-        //setorDAO.deletarSetor(3L);
+        setorDAO.deletarSetor(3L);
 
     }
 }

@@ -10,7 +10,7 @@ public class Dao {
     private static final String URL = "jdbc:postgresql://localhost:5432/cursojava2";
 
     private static final String USUARIO = "postgres";
-    private static final String SENHA = "12345";
+    private static final String SENHA = "1234";
 
     public static Connection getConnection() {
         try {
